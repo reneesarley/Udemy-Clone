@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Course } from './models/course.model';
+import { Categories } from './models/catergories.model'
 
 @Component({
   selector: 'app-root',
@@ -8,4 +9,8 @@ import { Course } from './models/course.model';
 })
 export class AppComponent {
   title = 'app';
+  categories: Categories[] = [
+    'Development', 'Design'
+  ]
+
 }
