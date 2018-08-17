@@ -24,6 +24,7 @@
 * _All category data will be stored in a database_
 * _A user should be able to see an image for each course on the course card_
 * _Add categories dropdown to nav bar. It will only include main categories, no sub categories_
+* _Utilize services and routing_
 
 ### Additional Goals
 * _Utilize the Udemy API_
