@@ -9,5 +9,16 @@ import { Category } from '../models/category.model'
 export class DiscoveryComponent {
   @Input() childCategories: Category[];
   @Input() childCourseList: Course[];
+  selectedCategory: string = 'Development';
+
+  coursesInSelectedCategory(){
+    let selectedCourses: Course[] = [];
+    for (let course of this.childCourseList){
+      if(course.category === this.selectedCategory){
+        selectedCourses.push(course);
+      }
+    }
+    return selectedCourses;
+  };
 
 }

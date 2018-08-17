@@ -6,7 +6,7 @@
   <div class="col-md">
     <button type="button" name="button" *ngFor="let category of childCategories">{{ category.name }}</button>
     <div class="row">
-      <div class="card courseCard col-md" *ngFor="let course of childCourseList">
+      <div class="card courseCard col-md" *ngFor="let course of coursesInSelectedCategory()">
         <app-course-card [childCourse]=course></app-course-card>
       </div>
     </div>
