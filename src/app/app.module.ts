@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { TopCategoriesComponent } from './top-categories/top-categories.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TopCategoriesComponent
   ],
   imports: [
     BrowserModule

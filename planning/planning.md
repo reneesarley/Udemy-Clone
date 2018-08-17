@@ -30,4 +30,4 @@
 * _Utilize the Udemy API_
 * _Include all available course information on the course details page (see https://www.udemy.com/developers/affiliate/models/course/ for course information)_
 * _Include all available categories_
-* _A user should see addtional details about a course when they hover over the course card_
+* _A user should see additional details about a course when they hover over the course card_
