@@ -9,7 +9,7 @@ import { Category } from '../models/category.model'
 export class DiscoveryComponent {
   @Input() childCategories: Category[];
   @Input() childCourseList: Course[];
-  selectedCategory: string = 'Development';
+  selectedCategory: string = 'Design';
 
   coursesInSelectedCategory(){
     let selectedCourses: Course[] = [];

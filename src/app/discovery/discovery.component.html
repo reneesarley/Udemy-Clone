@@ -4,7 +4,7 @@
     <p>Choose from over 80,000 online video courses with new additions published every month.</p>
   </div>
   <div class="col-md">
-    <button type="button" name="button" *ngFor="let category of childCategories">{{ category.name }}</button>
+    <button (click)="selectedCategory = category.name" type="button" name="button" *ngFor="let category of childCategories">{{ category.name }}</button>
     <div class="row">
       <div class="card courseCard col-md" *ngFor="let course of coursesInSelectedCategory()">
         <app-course-card [childCourse]=course></app-course-card>
