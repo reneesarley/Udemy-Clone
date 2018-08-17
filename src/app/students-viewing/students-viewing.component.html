@@ -2,14 +2,7 @@
 
 <h3>Students are viewing</h3><br>
 <div class="row">
-  <div class="card courseCard col-md" style="width: 18rem;" *ngFor="let course of childCourseList">
-    <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
-    <div class="card-body">
-      <h5 class="card-title">{{ course.name }}</h5>
-      <p class="card-text course">{{course.instructors[0]}}.</p>
-      <p class="card-text reviewRating"><span class="rating">{{course.starRating}}</span> ({{course.reviewCount}})</p>
-      <p class="price"><span class="originalCost">${{course.originalCost}} ${{course.currentCost}} </span></p>
-      <a href="#" class="btn btn-primary">Add To Cart</a>
-    </div>
+  <div class="card courseCard col-md" *ngFor="let course of childCourseList">
+    <app-course-card [childCourse]=course></app-course-card>
   </div>
 </div>
