@@ -7,6 +7,7 @@ import { TopCategoriesComponent } from './top-categories/top-categories.componen
 import { StudentsViewingComponent } from './students-viewing/students-viewing.component';
 import { DiscoveryComponent } from './discovery/discovery.component';
 import { CourseCardComponent } from './course-card/course-card.component';
+import { CourseDetailComponent } from './course-detail/course-detail.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { CourseCardComponent } from './course-card/course-card.component';
     TopCategoriesComponent,
     StudentsViewingComponent,
     DiscoveryComponent,
-    CourseCardComponent
+    CourseCardComponent,
+    CourseDetailComponent
   ],
   imports: [
     BrowserModule

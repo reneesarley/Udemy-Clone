@@ -1,4 +1,5 @@
 import { Component, Input, Output } from '@angular/core';
+import { Category } from '../models/category.model'
 
 @Component({
   selector: 'app-discovery',
@@ -6,5 +7,7 @@ import { Component, Input, Output } from '@angular/core';
   styleUrls: ['./discovery.component.css']
 })
 export class DiscoveryComponent {
+  @Input() childCategories: Category[];
   @Input() childCourseList: Course[];
+
 }
