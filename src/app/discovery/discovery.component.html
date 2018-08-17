@@ -6,7 +6,7 @@
   <div class="col-md">
     <div class="row">
       <div class="col-md" *ngFor="let course of childCourseList">
-        <p>test</p>
+        <app-course-card [childCourse]=course></app-course-card>
       </div>
     </div>
   </div>

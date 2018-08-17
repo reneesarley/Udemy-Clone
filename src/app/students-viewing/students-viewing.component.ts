@@ -5,7 +5,7 @@ import { Component, Input, Output } from '@angular/core';
   templateUrl: './students-viewing.component.html',
   styleUrls: ['./students-viewing.component.css']
 })
-export class StudentsViewingComponent implements OnInit {
+export class StudentsViewingComponent{
   @Input() childCourseList: Course[];
 
 }
