@@ -1,11 +1,10 @@
-<p>
-  students-viewing works!
-</p>
-<div class="card" style="width: 18rem;" *ngFor="let course of childCourseList">
+<div class="card courseCard" style="width: 18rem;" *ngFor="let course of childCourseList">
   <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
   <div class="card-body">
     <h5 class="card-title">{{ course.name }}</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <p class="card-text course">{{course.instructors[0]}}.</p>
+    <p class="card-text reviewRating"><span class="rating">{{course.starRating}}</span> ({{course.reviewCount}})</p>
+    <p class="price"><span class="originalCost">${{course.originalCost}} ${{course.currentCost}} </span></p>
+    <a href="#" class="btn btn-primary">Add To Cart</a>
   </div>
 </div>
