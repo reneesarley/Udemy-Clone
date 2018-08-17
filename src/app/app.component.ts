@@ -10,18 +10,19 @@ import { Category } from './models/category.model'
 export class AppComponent {
   title = 'app';
   masterCategories: Category[] = [
-     ('Development'),
-     ('Business'),
-     ('IT and Software'),
-     ('Design'),
-     ('Marketing'),
-     ('Personal Development'),
-     ('Photography'),
-     ('Music'),
-     ('Language'),
-     ('Health and Fitness'),
-     ('Office Productivity'),
-     ('Lifestyle')
-  ]
+     new Category('Development'),
+     new Category('Business')
+     new Category ('IT and Software'),
+     new Category ('Design'),
+     new Category ('Marketing'),
+     new Category ('Personal Development'),
+     new Category ('Photography'),
+     new Category ('Music'),
+     new Category ('Language'),
+     new Category ('Health and Fitness'),
+     new Category  ('Office Productivity'),
+     new Category ('Lifestyle')
+   ];
+
 
 }

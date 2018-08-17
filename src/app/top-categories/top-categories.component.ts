@@ -1,5 +1,5 @@
 import { Component, Input, Output } from '@angular/core';
-import { Category } from '../models/category';
+import { Category } from '../models/category.model';
 
 @Component({
   selector: 'app-top-categories',
@@ -8,7 +8,12 @@ import { Category } from '../models/category';
 })
 export class TopCategoriesComponent {
   @Input() childTopCategories: Category[];
-  testArray: Category[] = ['testCat', 'another test category']
-  constructor() { }
 
+  testArray: string[] = ['testCat', 'another test category'];
+
+  anotherTest: Category[] = [
+  new Category('Flan'),
+  new Category('Boiling Water'),
+  new Category('Peanut Butter and Jealous')
+  ];
 }
