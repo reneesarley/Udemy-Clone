@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, Output } from '@angular/core';
 
 @Component({
   selector: 'app-students-viewing',
@@ -6,10 +6,6 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./students-viewing.component.css']
 })
 export class StudentsViewingComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
+  @Input() childCourseList: Course[];
 
 }

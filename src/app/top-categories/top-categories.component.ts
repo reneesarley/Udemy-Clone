@@ -9,11 +9,6 @@ import { Category } from '../models/category.model';
 export class TopCategoriesComponent {
   @Input() childTopCategories: Category[];
 
-  testArray: string[] = ['testCat', 'another test category'];
 
-  anotherTest: Category[] = [
-  new Category('Flan'),
-  new Category('Boiling Water'),
-  new Category('Peanut Butter and Jealous')
-  ];
+
 }

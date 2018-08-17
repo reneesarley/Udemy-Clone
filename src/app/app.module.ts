@@ -4,12 +4,14 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { TopCategoriesComponent } from './top-categories/top-categories.component';
+import { StudentsViewingComponent } from './students-viewing/students-viewing.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    TopCategoriesComponent
+    TopCategoriesComponent,
+    StudentsViewingComponent
   ],
   imports: [
     BrowserModule

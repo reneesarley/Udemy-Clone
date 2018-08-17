@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { Course } from './models/course.model';
 import { Category } from './models/category.model'
+import { course } from './models/course.model'
 
 @Component({
   selector: 'app-root',
