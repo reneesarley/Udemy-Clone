@@ -1,3 +1,3 @@
-export class Categories {
+export class Category {
   constructor(name: string){};
 }
