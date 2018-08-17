@@ -9,7 +9,7 @@ import { Category } from './models/category.model'
 })
 export class AppComponent {
   title = 'app';
-  categories: Categories[] = [
+  categories: Category[] = [
     'Development', 'Design'
   ]
 
