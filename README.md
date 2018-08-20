@@ -10,7 +10,7 @@ _The current version of this application has the functionality to allow users to
 
 ## Setup/Installation Requirements
 
-* _Clone the GitHub repo for this application here: https://github.com/reneesarley/Doctor-Lookup.git_
+* _Clone the GitHub repo for this application here: https://github.com/reneesarley/Udemy-Clone.git
 * _Install all packages - From the root level of the project folder run the terminal command $ npm install_
 * _Run the program - From the root level of the project folder run the terminal command $ ng serve_
 * _There are three sample courses hard coded into the application._
